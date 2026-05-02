@@ -32,3 +32,73 @@
 } */
 
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 15px 10%;             
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a8917; 
+    cursor: pointer;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none; 
+    gap: 25px;        
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #1a8917; 
+}
+
+/* 5. Right Side Buttons */
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.signup-btn {
+    background-color: #1a8917;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signup-btn:hover {
+    background-color: #146c12;
+}
