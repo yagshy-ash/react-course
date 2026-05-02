@@ -102,3 +102,61 @@
 .signup-btn:hover {
     background-color: #146c12;
 }
+
+section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;  
+}
+.osus-text {
+    display: inline-block;   
+    text-align: center;      
+    margin:20px;
+    
+
+    background-color: white;
+    color: #1a8917;
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: 1px solid #d0e8d5;
+    font-size: 14px;
+}
+
+.geljek-text{
+    width: 600px;
+    text-align: center;
+    color:black;
+    margin:10px;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+.dowrebap-text{
+    width: 600px;
+    text-align: center;
+    color: #5c761f;
+    margin:10px;
+    font-size: 18px;
+
+}
+.dowrebap-text{
+ 
+    width: 600px;
+    text-align: center;
+    color: #c2cab0;
+    margin:10px;
+    padding: 3px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.maksat-text{
+    width: 800px;
+    text-align: center;
+    color: #839e46;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 3px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
