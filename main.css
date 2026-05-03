@@ -280,3 +280,84 @@ section article p{
     max-width: 390px;
 }
 
+
+
+
+
+
+
+.boxes2{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+.card12, .card22, .card32 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;  
+    flex-wrap: wrap; 
+    max-width:400px;
+    min-height: 220px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.boxes2 .card12 div, .boxes2 .card22 div, .boxes2 .card32 div{
+    font-size: 30px;
+    background-color:var(--goyy-yasyl);
+    width: 50px;
+    color: white;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes2 h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    color: rgb(193, 191, 191);
+}
+.boxes2 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 21px;
+    color: var(--text-cal);
+    max-width: 390px;
+}
+.basla-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.basla-btn button{
+    color: var(--acyk-gok);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    background-color: var(--goyy-yasyl);
+}
+
+
+
+
+
+
+
+
+
+
