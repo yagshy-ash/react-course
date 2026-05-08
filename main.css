@@ -1,34 +1,98 @@
-/* #cfe8d2  bgcolor*/
-/* #259a46  text color*/
+/* sidebar: #1d1d1f
+sidebase: #2d2d2f 
+green-bg: #34c759
+*/
 
-/* .osus-text{
-    background-color: rgba(207, 232, 210, 0.5);
-    margin: auto;
-    width: fit-content;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+/* Sidebar Design Begin */
+
+.sidebar {
+    background-color: #1d1d1f;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 10px;
-    border: solid 1px rgb(37, 154, 70, 0.5);
-    border-radius: 20px;
+}
+.logo-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo{
+    width: 40px;
+    height: 36px;
+}
+.logo-box h1{
+    font-size: 17px;
+    color: white;
+}
+.new-plan{
+    /* background-color: #34c759;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; */
+    padding: 10px 0;
+}
+.new-plan button{
+    background-color: #2d2d2f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
 
-    color: #259a46;
+.plans{
+    background-color: red;
+    height: 600px;
+}
+.plans p{
+    color: #2d2d2f;
+    font-size: 11px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+
 }
-.geljek-text{
-    margin: auto;
-    width: 600px;
-    text-align: center;
-    font-size: 68px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px;
+
+
+
+
+/* Sidebar Design End */
+
+/* Outline Design Begin */
+.outline{
+    background-color: green;
+    width: 260px;
+    padding: 20px;
+
 }
-.dowrebap-text{ 
-    margin: auto;
-    width: 600px;
-    text-align: center;
-    font-size: 24px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #808770;
-    padding: 10px;
-} */
+/* Outline Design End */
+
+/* Content Design Begin */
+.content {
+    background-color: blue;
+    width: 100%;
+    padding: 20px;
+}
+/* Content Design End */
 
 
