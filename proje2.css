@@ -1,0 +1,379 @@
+/* sidebar: #1d1d1f
+sidebase: #2d2d2f 
+green-bg: #34c759
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;  /*yan yana siraladi*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sidebar Design Begin */
+
+.sidebar {
+    background-color: #1d1d1f;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box; /*toplam genislikte tasma olmaz*/
+}
+.logo-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+}
+.logo{
+    width: 40px;
+    height: 36px;
+}
+.logo-box h1{
+    font-size: 17px;
+    color: white;
+}
+.new-plan{
+    background-color:#2d2d2f;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+.new-plan button{
+    background-color: #2d2d2f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.plans{
+    background-color: transparent;
+    height: auto;
+}
+.plans p{
+    color: #7d8590;
+    font-size: 11px;
+    font-weight: bold; /*kalin yazi*/
+    text-transform: uppercase; /* buyuk harfe cevirdi*/
+    margin: 10px 0 10px 0; /*alt bosluk verdik*/
+    letter-spacing: 1px;
+
+}
+
+.plans ul{
+    list-style: none;
+    margin: 0;
+    color: #b8bec8;
+    padding: 11px 14px;
+    border-radius: 9px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.plans li:active{
+    background-color: #363638;
+    color: white;
+    font-weight: bold;
+    border-left: 3px solid #34c759;
+}
+
+.profilebar {
+    border-top: 1px solid #2d2d2f;
+    padding-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.profilebar button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer; /*Mouse’u elementin üstüne getirince imleci el şekline çevirir.*/
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.profile-btn {
+    background: transparent;
+    color: #b8bec8;
+    border: none;
+    text-align: left;
+}
+
+.upgrade-btn {
+    background: transparent;
+    color: #d7dbe2;
+    border: 1px solid #4a4a4d;
+}
+
+.download-btn {
+    background-color: #34c759;
+    color: white;
+    border: none;
+}
+
+/* Sidebar Design End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Outline Design Begin */
+.outlinePanel {
+    width: 280px;
+    height: 100vh;
+    background-color: white;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.outline {
+    padding: 28px 24px;
+    border-bottom: 1px solid #ececec;
+}
+
+.outline h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #202123;
+    height:0px;
+}
+
+.outline-menu {
+    padding: 14px 12px;
+}
+
+.outline-menu article {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.outline-menu article:hover {
+    background-color: #ececec;
+}
+
+
+
+.outline-menu article div {
+    width: 30px;
+    height: 30px;
+    background-color: #ededed;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+
+.outline-menu article button {
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #4b5563;
+    cursor: pointer;
+    padding: 0;
+}
+
+
+.print-preview {
+    padding: 20px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.print-preview button {
+    width: 100%;
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+    color: #4b5563;
+    cursor: pointer;
+}
+
+
+/* Outline Design End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Content Design Begin */
+.content {
+    background-color: #f7f7f8;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h3{
+    border-bottom: 1px solid #ececec;
+    height: 37px;
+    display: flex;
+    align-items: center;
+}
+
+.content h4 {
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+.content p {
+    text-align: center;
+    color: #6b7280;
+    font-size: 15px;
+    margin-top: 16px;
+}
+
+.startup-prompt-form {
+    width: 620px;
+    height: 56px;
+    margin: 36px auto 0;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 18px;
+    box-sizing: border-box;
+}
+
+.startup-prompt-form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: #333;
+}
+
+.startup-prompt-form input::placeholder {
+    color: #9ca3af;
+}
+
+.startup-prompt-form button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 11px;
+    background-color: #a7efbc;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.ai-action-btn {
+    width: 620px;
+    margin: 34px auto 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.ai-action-btn button {
+    background-color: #e9f8ee;
+    border: 1px solid #86d9a0;
+    color: #1f2937;
+    padding: 11px 16px;
+    border-radius: 11px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* Content Design End */
+
